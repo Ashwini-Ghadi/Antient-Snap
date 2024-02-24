@@ -1,0 +1,350 @@
+*{
+	font-family: 'Alkatra', cursive;
+	 scroll-behavior: smooth;
+}
+/*navbar background*/
+.top-line{
+	height:7px; 
+	background-color:#06161d;
+}
+.logo{
+	color: #06161d;
+	font-family: Sofia; 
+	font-weight:bold;
+	position:relative;
+	left:5px;
+}
+.up-nav{
+	background-color: #adbcb4;
+	padding:5px;
+	width:101%;
+}
+
+.bg-custom {	/*navbar*/
+	background-color:#06161d;
+	color: whitesmoke;
+}
+
+.rbtn{
+	background-color: #324a4a;
+	color: whitesmoke;
+	border-radius: 15px;
+	position:relative;
+	left:150px; 
+}
+
+.searchbtn{
+	background-color: #324a4a;
+	color: whitesmoke;
+	border-radius: 15px;
+}
+.settingbtn{
+	background-color:#52785b;
+	color:06161d;
+	border-radius: 15px;
+}
+
+.contactbtn{
+	background-color:#52785b;
+	color:06161d;
+	border-radius: 15px;
+}
+
+
+.back-img {
+	background-image: url("../Img/containerbg.gif");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+
+.quote{
+	width:800px;
+	color:#06161d;
+	text-shadow:#544c44;
+    font-family: cursive;
+    font-weight: bold;
+    position:relative;
+     top:175px;
+    left:275px;
+    z-index:1;
+    
+}
+
+.quote .line-1{
+	position:relative;
+	left:125px;
+	font-size:2rem;
+}
+.quote .line-2{
+	
+	position:relative;
+	left:125px;
+	font-size:2rem;
+}
+.quote .time-txt{
+	position:relative;
+	left:125px;
+	font-size:4rem;
+	font-weight:bold;	
+}
+
+.quote .world-txt{
+	position:relative;
+	left: 225px;
+	font-size:4rem;
+	font-weight:bold;	
+}
+
+.quote .oppo-txt{
+	position:relative;
+	left:275px;
+	font-size:4rem;
+	font-weight:bold;
+	width:700px;	
+}
+.bg-grad{	    /*card div*/
+  background-color: #6b8481;
+}
+
+.bg-grad .container-old{
+	height:650px;
+}
+.container .text-center{
+	color:#06161d;
+	 padding: 40px 0 20px 0;
+	 font-family:Cursive; 
+	 text-shadow: 1px 1px 1px #06161d;
+}
+
+.row .cardbg{
+	background-color: #81908b;
+	border-radius: 20px;
+	 border: 2px solid;
+  	padding: 10px;
+  	box-shadow: 5px 10px 18px #324a4a;
+}
+.card .card-msg{
+	text-align:center;
+	padding-top: 20px; 
+	margin-top:12px;
+	color: #172e7c; 
+	font-family: Cursive; 
+	font-weight: bold; 
+	font-size: 3vmin
+}
+
+
+.card .Article-image{
+	width: 450px; 
+	height: 300px;
+	border-color:2px solid #06161d;
+	border-radius:20px;
+}
+
+.card .category{
+	color:black;
+	font-weight:lighter;
+	font-size:1rem;
+}
+
+.card .viewbtn{
+	color: #06161d;
+	font-weight: bold;
+}
+
+/*Footer*/
+.footer{
+	background-color:#06161d;
+	height: 300px;
+	width: 1349px; 
+	background-size: cover; 
+	position:relative;
+
+}
+
+.footerPara{
+	padding-top:60px;
+	opacity:100%;
+	text-align:center;
+	color: #8aa1a9;
+
+}
+.confootbtn{
+	
+	 background-color:#F13C20;
+	 color:whitesmoke;
+	 border-radius: 15px;
+	 margin-left:45%;
+	 margin-top:10px;
+}
+
+.footerIcon {
+  padding-top:15px;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px 0 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+   
+}
+
+
+/*Goto top button*/
+.gototop{
+	position: fixed;
+	width:30px;
+	height:30px;
+	background-color: #EFE2BA;
+	border-radius:20px;
+	color:#06161d;
+	bottom:10px;
+	right:10px;
+	
+	text-align: center;
+}
+
+/* Registration css  */
+.registerbg{
+	background-image: url("../Img/registerbg.gif");
+	height: 90vh;
+	width: 100%;
+	background-size: cover;
+	
+  
+}
+ .rg-card{
+    width: 500px;
+    height: 80vh;
+  	position:relative;
+  	left:400px;
+  	top:40px;
+  	 border: 2px solid;
+  	 border-radius:15px;
+  	box-shadow: 5px 10px 18px #324a4a;
+  	z-index: 1;
+  	
+ }
+ .card-body{
+ 	color:#06161d;
+ }
+ 
+ .form-title{
+ 	position:relative;
+ 	bottom:15px;
+ 	text-align:center;
+ }
+.sign-btn{
+	color:#06161d;
+	border-radius:20px; 
+	width:100%;
+	border-color:#06161d;
+	background-color: transparent;
+	border-style:solid;
+}
+.guide-google{
+	font-size: 14px;
+	width:100%;
+	margin:auto 8px;
+	color:#06161d;
+	font-weight:bold;
+} 
+
+div.hr-left, div.hr-right{
+ 	background-color:#06161d;
+ 	width:350px;
+ 	height:1px;
+ }
+ 
+ .google-container{
+ 	display:flex;
+ 	justify-content:center;
+ 	align-items:center;
+ 	text-align:center;
+ 	padding:15px;	
+ }
+ .ip-field label{
+ 	color:black;
+ 	display:block;
+	
+ }
+ 
+ .ip-field input{
+ 	background-color: transparent;
+ 	border-radius:20px; 
+	width:100%;
+	border-color:#06161d;
+	border-style:solid;	
+	
+ 	
+ }
+ 
+ .register-btn{
+ 	border-radius:20px; 
+	width:50%;
+	border-color:#06161d;
+	background-color: #06161d;
+	color:#e5ebde;
+	border-style:solid;
+	font-weight: bold;
+	position:relative;
+	top:30px;
+	left:100px;
+ }
+ .have-acc{
+	 position:relative;
+	top:30px;
+	left:100px;
+ }
+
+/*All hovers*/
+.searchbtn:hover{
+	background-color: #06161d;
+	color: #e5ebde;
+	border-radius: 15px;
+	font-size:1rem;
+}
+ .rbtn:hover{
+	background-color: #06161d;
+	color: #e5ebde;
+	border-radius: 15px;
+	font-size:1rem;
+}
+
+.settingbtn:hover{
+	background-color: #98acb1;
+	color:#041015;
+	border-radius: 15px;
+}
+.contactbtn:hover{
+	background-color: #98acb1;
+	color:#041015;
+	border-radius: 15px;
+}
+
+.footerIcon:hover {
+  transform: translateY(-10px);
+}
+.confootbtn:hover{
+ 	 background-color: #EFE2BA;
+	color:#F13C20;
+	border-radius: 15px;
+}
+.register-btn:hover{
+	font-size:1rem;
+}
+
+/*nav-hovers*/
+.navbar .navlink .nav-ites:hover{
+	background-color: #98acb1;	
+	color:#041015;
+	border-radius: 15px;
+}
+
+.rg-card .sign-btn:hover{
+	font-size: 1.1rem;
+}
+
+
